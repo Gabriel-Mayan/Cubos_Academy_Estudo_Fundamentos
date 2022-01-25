@@ -1,6 +1,11 @@
 const { Router } = require('express');
 
-const { calcularIMC } = require('./controllers/index');
+const { 	
+	calcularIMC,
+	aplicarRegraDeTres,
+	calcularJurosCompostos,
+	conversorFaherenheitParaCelsius,
+} = require('./controllers/operadoresMatematicos');
 
 const routes = Router();
 
